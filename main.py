@@ -23,7 +23,7 @@ def connect_db():
     return mysql.connector.connect(
         host="localhost",
         user="root",
-        password="Mohammed1998",
+        password="password",
         database="inventory_sales"
     )
 
@@ -158,4 +158,5 @@ while True:
         break
 
     else:
+
         print("Invalid option. Please try again.")
